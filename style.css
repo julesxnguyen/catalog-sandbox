@@ -1,0 +1,45 @@
+/* No need to edit these */
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f6;
+  color: #484848;
+}
+.header {
+  border-bottom: 1px solid #d5d5d5;
+}
+.logo {
+  display: flex;
+  height: 54px;
+  width: auto;
+  margin: 0 auto;
+}
+.page-title {
+  widows: 100%;
+  margin: 16px auto;
+  text-align: center;
+}
+
+/* Feel free to edit or add to these */
+.products {
+  width: auto;
+}
+.card {
+  background-color: white;
+  border: 1px solid #d5d5d5;
+  width: auto;
+  padding: 12px;
+}
+img {
+  width: 200px;
+}
+.title {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #484848;
+}
+.description {
+  color: #868786;
+}
+.price {
+  color: #484848;
+}
