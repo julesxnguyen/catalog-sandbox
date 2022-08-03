@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   background-color: #f7f7f6;
   color: #484848;
+  text-align: center;
 }
 .header {
   border-bottom: 1px solid #d5d5d5;
@@ -22,12 +23,18 @@ body {
 /* Feel free to edit or add to these */
 .products {
   width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 .card {
   background-color: white;
   border: 1px solid #d5d5d5;
   width: auto;
   padding: 12px;
+}
+p {
+  margin-bottom: 5px;
 }
 img {
   width: 200px;
@@ -43,3 +50,22 @@ img {
 .price {
   color: #484848;
 }
+
+.btn-products-toggle {
+    display: block;
+  margin: 10px auto;
+}
+
+/* DESKTOP */
+ @media (min-width: 551px) {
+   .card {
+    flex: 33.33;
+   }
+   .products {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center
+   }
+ } 
+
